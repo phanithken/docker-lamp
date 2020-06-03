@@ -9,3 +9,8 @@ To RUN mysql client:
 ```
 docker-compose exec db mysql -u root -p
 ```
+
+To access bash:
+```
+docker exec -it <www container's id> bash
+```

@@ -13,3 +13,7 @@ docker-compose exec db mysql -u root -p
 Check Version:
 * openSSH: `sshd -V` or `ssh -V`
 * 
+To access bash:
+```
+docker exec -it <www container's id> bash
+```

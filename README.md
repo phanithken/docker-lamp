@@ -9,3 +9,7 @@ To RUN mysql client:
 ```
 docker-compose exec db mysql -u root -p
 ```
+
+Check Version:
+* openSSH: `sshd -V` or `ssh -V`
+* 
